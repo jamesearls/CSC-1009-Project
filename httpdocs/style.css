@@ -1,0 +1,54 @@
+body{
+	background-color: lightblue;
+}
+h1 {
+	color:blue;
+	font-family: verdana;
+	font-size: 300%;
+}
+p {
+	color: red;
+	font-family: courier;
+	font-size: 160%
+}
+#para1{
+	text-align: left;
+	color: red;
+}
+.center{
+	text-align: center;
+	color: yellow;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffff;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #7a1369;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #ffff;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}

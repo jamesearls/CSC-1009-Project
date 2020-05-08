@@ -1,0 +1,43 @@
+<html>
+  <head>
+  </head>
+  <body {
+  
+  }
+  body {background-color: coral;}
+ <h1 class="center">
+  h1 {
+	  color: red;
+	  font-family: century gothic;
+	  font-size: 200%;
+  }
+  h2 {
+	  color: green;
+	  font-family: century gothic;
+	  font-size: 150%;
+  }
+  p{ 
+		color: blue;
+		font-family: century gothic;
+		font-size:140%;
+  }
+  h3 { 
+		color: orange;
+		font-family: kristen itc;
+		font-size;100%;
+  }
+  h4 {
+		color: purple;
+		font-family: arial;
+		font-size: 100%;
+  }
+  
+  h5 { 
+		color: pink;
+		font-family: kristen itc;
+		font-size: 100%;
+  }
+  <p> This is a CSS paragraph </p>
+  <p class="center"> This paragraph is centre aligned. </p>
+  </body>
+  </hmtl>

@@ -1,0 +1,168 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+  </head><body>
+    <div class="section" draggable="true">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">Symptom Checker</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="text-center">Check the symptom checker to see whether you are at risk and may have
+              cancer.
+              <br>*PLEASE NOTE* This is NOT a substitute for a doctor</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--This is the break between HTML page and data model-->
+    <!----this-->
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h4>Have you had a persistent cough that has lasted at least 1 month</h4>
+            <form action="symptomanalysis" method="GET">Yes
+              <input type="radio" name="q1" value="yes">
+              <br>No
+              <input type="radio" name="q1" value="no">
+              </form>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Have you noticed a change in your bowel habits (ie. Diarrhea)</h4>
+            </div>
+            <div class="col-md-12">
+              <form action="symptomanalysis" method="GET">Yes
+                <input type="radio" name="q2" value="yes">
+                <br>No
+                <input type="radio" name="q2" value="no">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Have you noticed any lumps on your body (ie. on your breasts or your testicles)</h4>
+            </div>
+            <div class="col-md-12">
+              <form action="symptomanalysis" method="GET">Yes
+                <input type="radio" name="q3" value="yes">
+                <br>No
+                <input type="radio" name="q3" value="no">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Have you noticed an increase in the appearence of warts on your body?</h4>
+              <form action="symptomanalysis" method="GET">Yes
+                <input type="radio" name="q4" value="yes">
+                <br>No
+                <input type="radio" name="q4" value="no">
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Have you been suffering from indigestion or have difficulty swallowing?</h4>
+              <form action="symptomanalysis" method="GET">Yes
+                <input type="radio" name="q5" value="yes">
+                <br>No
+                <input type="radio" name="q5" value="no">
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Have you been feeling like you've been having night sweats, increased
+                weight loss or a fever?</h4>
+              <form action="symptomanalysis" method="GET">Yes
+                <input type="radio" name="q6" value="yes">
+                <br>No
+                <input type="radio" name="q6" value="no">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Have you been experiencing any joint or back pain?</h4>
+              <form action="symptomanalysis" method="GET">Yes
+                <input type="radio" name="q7" value="yes">
+                <br>No
+                <input type="radio" name="q7" value="no">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <form action="symptomanalysis" method="GET">
+                <input type="submit" value="Check Your Symptoms">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center">If there is a question that should be included, please add them below</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="\section\">
+        <div class="\container\">
+          <div class="row\">
+            <div class="\col-md-12\">Question:
+              <br>
+              <input type="\text\" name="\question\">
+              <br>
+              <input type="submit" value="Submit">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>

@@ -1,0 +1,89 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css\james_style_01.css" rel="stylesheet" type="text/css">
+  </head><body>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"><span>Coping With Cancer</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="/Home.html">Home</a>
+            </li>
+            <li>
+              <a href="/mainForumPage.html">Forum</a>
+            </li>
+            <li>
+              <a href="/SymptomChecker.html">Symptom Checker</a>
+            </li>
+            <li>
+              <a href="/help.html">Help &amp; appointments</a>
+            </li>
+            <li>
+              <a href="/DonatePage.html">Donate</a>
+            </li>
+            <li>
+              <a href="/AboutUspage.html">About Us</a>
+            </li>
+            <li>
+              <a href="/signUp.html">Sign Up</a>
+            </li>
+            <li>
+              <a href="/yourAccountPage.html">My Account</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h1>Help and Appointments</h1>
+    <p></p>
+    <p></p>
+    <div class="appointment-section">
+      <div class="appointment-form-container">
+        <div class="row">
+          <div class="col-md-12">
+            <form action="/addappointmentprocess" method="GET">
+              <div class="email:">
+                <label class="control-label" for="exampleInputEmail1">Email:</label>
+                <input class="form-control" id="exampleInputEmail1" placeholder="Enter Email" type="email">
+              </div>
+              <div class="forename">
+                <label class="control-label" for="exampleInputEmail1">Forename:</label>
+                <input class="form-control" id="exampleInputEmail1" placeholder="Enter Forename" type="text">
+              </div>
+              <div class="surname">
+                <label class="control-label" for="exampleInputEmail1">Surname:</label>
+                <input class="form-control" id="exampleInputEmail1" placeholder="Enter Surname" type="text">
+              </div>
+              <div class="location">
+                <label class="control-label" for="location">Location:</label>
+                <br>
+                <select name="location">
+                  <option value="belfast">Belfast</option>
+                  <option value="armagh City">Armagh City</option>
+                  <option value="larne">Larne</option>
+                  <option value="carnlough">Carnlough</option>
+                </select>
+              </div>
+              <br>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
